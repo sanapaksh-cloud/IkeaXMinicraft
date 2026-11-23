@@ -1,0 +1,26 @@
+export const N=10,INR=n=>'₹'+n.toLocaleString('en-IN');
+export const F={
+bed:{n:'MALM Bed',pr:14990,w:2,d:3,c:'#c8a26b',p:[[0,.25,0,2,.5,3,'m'],[0,.62,.1,1.8,.25,2.7,'#f4f4f0'],[0,.79,.55,1.84,.08,1.7,'#2f6fb5'],[-.45,.87,-1,.7,.18,.5,'#fff'],[.45,.87,-1,.7,.18,.5,'#fff'],[0,.8,-1.45,2,1.3,.1,'m']]},
+wardrobe:{n:'PAX Wardrobe',pr:19990,w:2,d:1,c:'#f2f0ea',p:[[0,1.15,0,2,2.3,1,'m'],[0,1.15,.51,.04,2.1,.02,'#8a8a8a'],[-.15,1.1,.52,.06,.5,.04,'#c0c0c0'],[.15,1.1,.52,.06,.5,.04,'#c0c0c0']]},
+nightstand:{n:'HEMNES Bedside Table',pr:3990,w:1,d:1,top:.7,c:'#d9c7a3',p:[[0,.35,0,.85,.7,.85,'m'],[0,.5,.43,.6,.22,.02,'#6b5b45'],[0,.5,.45,.12,.05,.03,'#c0c0c0']]},
+floorlamp:{n:'HEKTAR Floor Lamp',pr:2990,w:1,d:1,c:'#2b2b2b',light:1,p:[[0,.05,0,.55,.1,.55,'m'],[0,.85,0,.08,1.7,.08,'m'],[0,1.85,0,.55,.45,.55,'*#ffe08a']]},
+rug:{n:'STOCKHOLM Rug',pr:4990,w:3,d:2,flat:1,c:'#e8b04a',p:[[0,.03,0,3,.06,2,'m'],[0,.07,0,2.5,.02,1.5,'#fff6dc'],[0,.08,0,1.6,.02,.8,'m']]},
+sofa:{n:'KIVIK Sofa',pr:24990,w:3,d:1,c:'#2f6fb5',p:[[0,.25,.05,3,.5,1,'m'],[0,.8,-.4,3,.9,.22,'m'],[-1.4,.6,.05,.2,.7,1,'m'],[1.4,.6,.05,.2,.7,1,'m'],[-.65,.6,.12,1.25,.2,.75,'#e8e4dc'],[.65,.6,.12,1.25,.2,.75,'#e8e4dc']]},
+coffee:{n:'LACK Coffee Table',pr:5990,w:2,d:1,top:.5,c:'#8b6a43',p:[[0,.45,0,1.8,.1,.9,'m'],[-.8,.2,-.35,.1,.4,.1,'m'],[.8,.2,-.35,.1,.4,.1,'m'],[-.8,.2,.35,.1,.4,.1,'m'],[.8,.2,.35,.1,.4,.1,'m']]},
+tvunit:{n:'BESTÅ TV Unit',pr:9990,w:3,d:1,top:.6,c:'#f2f0ea',p:[[0,.3,0,3,.6,.9,'m'],[0,.7,0,.5,.2,.2,'#222'],[0,1.3,0,2,1.1,.1,'#111'],[0,1.3,.06,1.85,.95,.02,'*#4aa3ff']]},
+bookshelf:{n:'BILLY Bookcase',pr:6990,w:2,d:1,c:'#8b6a43',p:[[-.95,1.15,0,.1,2.3,.9,'m'],[.95,1.15,0,.1,2.3,.9,'m'],[0,1.15,-.42,1.9,2.3,.06,'m'],[0,.05,0,1.9,.1,.9,'m'],[0,.65,0,1.9,.06,.9,'m'],[0,1.2,0,1.9,.06,.9,'m'],[0,1.75,0,1.9,.06,.9,'m'],[0,2.3,0,2,.08,.9,'m'],[-.6,.88,0,.25,.4,.6,'#e8504a'],[-.25,.86,0,.2,.36,.6,'#2f6fb5'],[.2,.9,0,.3,.44,.6,'#ffdb00'],[.6,.86,0,.2,.36,.6,'#3f9d4a'],[-.5,1.43,0,.3,.4,.6,'#3f9d4a'],[0,1.41,0,.2,.36,.6,'#d98fb0'],[.5,1.45,0,.3,.44,.6,'#2f6fb5'],[-.3,1.98,0,.3,.4,.6,'#ffdb00'],[.3,1.96,0,.2,.36,.6,'#e8504a']]},
+plant:{n:'FEJKA Indoor Plant',pr:1490,w:1,d:1,c:'#3f9d4a',p:[[0,.2,0,.5,.4,.5,'#c2693f'],[0,.65,0,.55,.5,.55,'m'],[0,1.08,0,.35,.4,.35,'m'],[.2,.85,.1,.25,.3,.25,'m']]},
+desk:{n:'MICKE Desk',pr:7990,w:3,d:1,top:.85,c:'#f2f0ea',p:[[0,.8,0,3,.1,.95,'m'],[-1.4,.4,0,.1,.8,.9,'m'],[1.4,.4,0,.1,.8,.9,'m'],[0,.55,-.4,2.7,.5,.08,'m']]},
+chair:{n:'MARKUS Gaming Chair',pr:12990,w:1,d:1,c:'#2b2b2b',p:[[0,.1,0,.8,.1,.8,'#222'],[0,.45,0,.12,.7,.12,'#444'],[0,.85,.05,.75,.15,.7,'m'],[0,1.4,-.3,.7,1,.12,'m'],[.42,1.05,0,.08,.08,.5,'#222'],[-.42,1.05,0,.08,.08,.5,'#222']]},
+computer:{n:'Desktop PC & Monitor',pr:34990,w:1,d:1,onTop:1,c:'#222',p:[[0,.2,-.1,.1,.4,.1,'#222'],[0,.62,-.1,.9,.55,.06,'m'],[0,.62,-.06,.82,.47,.02,'*#4aa3ff'],[0,.03,.25,.7,.06,.25,'#ddd']]},
+desklamp:{n:'FORSÅ Desk Lamp',pr:1490,w:1,d:1,onTop:1,light:1,ly:.9,c:'#2f6fb5',p:[[0,.04,0,.4,.08,.4,'m'],[0,.35,0,.05,.6,.05,'m'],[.1,.7,.05,.4,.15,.25,'*#ffe08a']]},
+art:{n:'BJÖRKSTA Wall Art',pr:1990,w:1,d:0,wall:1,c:'#3d2f22',p:[[0,0,0,.9,.9,.06,'m'],[0,0,.04,.7,.7,.02,'#ffd24a'],[0,-.1,.05,.5,.3,.02,'#2f6fb5'],[.1,.15,.05,.2,.2,.02,'#e8504a']]},
+clock:{n:'BONDIS Wall Clock',pr:990,w:1,d:0,wall:1,c:'#222',p:[[0,0,0,.8,.8,.08,'m'],[0,0,.05,.65,.65,.02,'#fff'],[0,.12,.07,.05,.25,.02,'#222'],[.1,0,.07,.2,.05,.02,'#222']]}};
+export const CATS={Bedroom:['bed','wardrobe','nightstand','floorlamp','rug'],Living:['sofa','coffee','tvunit','bookshelf','plant'],Workspace:['desk','chair','computer','bookshelf','desklamp'],Decor:['art','plant','clock','floorlamp','rug']};
+export const WALLS={'White':'#f3f1ec','Beige':'#e6d5b5','Pastel pink':'#f5c9d6','Sage green':'#a9c4a0','Light blue':'#b7d9f0'};
+export const FLOORS={'Oak wood':['#b98c52','plank'],'Dark wood':['#5a3d27','plank'],'White tiles':['#ececec','tile'],'Stone blocks':['#8c8c8c','stone']};
+export const LIGHTS={'Daylight':{bg:'#8fd0ff',amb:['#ffffff',.8],sun:['#ffffff',.75,[8,14,8]],ceil:.15,lamp:.1,orb:['#fff6a0',11]},'Sunset':{bg:'#f6a06a',amb:['#ffd9b0',.55],sun:['#ff9b4d',1.25,[13,5,-6]],ceil:.5,lamp:.6,orb:['#ff7a30',3]},'Night mode':{bg:'#0b1030',amb:['#8fa4ff',.28],sun:['#9db4ff',.2,[8,10,-8]],ceil:1,lamp:1.3,orb:['#e8eeff',11]}};
+export const THEMES={'Minimalist IKEA bedroom':['White','Oak wood','Daylight','Pale walls, light oak, a splash of blue.'],'Cozy cottage':['Pastel pink','Dark wood','Sunset','Warm sunset through the window.'],'Gamer setup':['Light blue','Dark wood','Night mode','Lights low, monitor glowing.'],'Modern apartment':['Beige','White tiles','Daylight','Clean tiles and soft beige.'],'Minecraft survival house':['Sage green','Stone blocks','Sunset','Cobblestone floor, mossy walls.']};
+export const SW=['#f2f0ea','#c8a26b','#2f6fb5','#e8504a','#ffdb00','#3f9d4a','#d98fb0','#2b2b2b'];
+export const CHECK=[['bed'],['wardrobe'],['nightstand'],['desk'],['chair'],['computer'],['bookshelf'],['plant'],['rug'],['floorlamp','desklamp'],['art','clock']];
+export const bo=x=>{const n=7.5625,d=2.75;if(x<1/d)return n*x*x;if(x<2/d)return n*(x-=1.5/d)*x+.75;if(x<2.5/d)return n*(x-=2.25/d)*x+.9375;return n*(x-=2.625/d)*x+.984375};
